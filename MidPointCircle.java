@@ -5,7 +5,7 @@ import javax.media.opengl.glu.GLU;
 
 /**
  *
- * @author sajib
+ * @author Muna
  */
 public class MidPointCircle  implements GLEventListener {
     /**
