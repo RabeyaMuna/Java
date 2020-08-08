@@ -7,7 +7,7 @@ import javax.media.opengl.glu.GLU;
  *
  * @author Muna
  */
-public class MidPointCircle  implements GLEventListener {
+public class  MidPoint9wayCircle  implements GLEventListener {
     /**
      * Interface to the GLU library.
      */
@@ -42,7 +42,18 @@ public class MidPointCircle  implements GLEventListener {
          * put your code here
          */
        //points should be in the same zone
-        DrawMPL(gl,2,3,50);
+        DrawMPL(gl,0,0,150);
+        DrawMPL(gl,0,75,75);
+        DrawMPL(gl,75,0,75);
+        DrawMPL(gl,0,-75,75);
+        DrawMPL(gl,-75,0,75);
+        DrawMPL(gl,53,53,75);
+        DrawMPL(gl,-53,-53,75);
+        DrawMPL(gl,-53,53,75);
+        DrawMPL(gl,53,-53,75);
+        
+
+
        
     }
 
@@ -137,4 +148,5 @@ public class MidPointCircle  implements GLEventListener {
         //do nothing
     }
 }
+
 
